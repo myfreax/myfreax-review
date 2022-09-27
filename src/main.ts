@@ -1,9 +1,7 @@
-import App from './App.svelte'
-import './style.css'
-import '@fortawesome/fontawesome-free/css/all.css'
-
+import App from "./App.svelte";
+import "./style.css";
 const app = new App({
-    target: document.getElementById('app')
-  })
+  target: document.getElementById("post-comments"),
+});
 
-export default app
+export default app;
